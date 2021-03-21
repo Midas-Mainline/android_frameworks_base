@@ -978,6 +978,7 @@ public class GLSurfaceView extends SurfaceView implements SurfaceHolder.Callback
 
                 Log.e(TAG, "chooseConfig:" + String.format("d=%d, s=%d, r=%d, g=%d, b=%d, a=%d", d, s, r, g, b, a));
                 Log.e(TAG, "chooseConfig:" + String.format("mD=%d, mS=%d, mR=%d, mG=%d, mB=%d, mA=%d",  mDepthSize, mStencilSize, mRedSize, mGreenSize, mBlueSize, mAlphaSize));
+                return config;
             }
                 Log.e(TAG, "chooseConfig exit");
             return null;
